@@ -146,3 +146,85 @@ p {
     padding: 40px;
     box-sizing: border-box;
 }
+
+@media (max-width: 800px) {
+    body {
+        gap: 30px;
+        margin-top: 40px;
+    }
+    img {
+        max-width: 100%;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .conteudo {
+        max-width: 710px;
+    }
+    .introducao {
+        padding: 20px;
+    }
+    .introducao h1 {
+        font-size: 1.3rem;
+    }
+    .botao {
+        padding: 1rem 1rem;
+    }
+    .introducao::before {
+        top: 18px;
+    }
+    .subtitulo {
+        font-size: 3.2rem;
+        text-align: center;
+        padding: 5px;
+    }
+    .vantagens {
+        padding: 10px;
+    }
+    .vantagens-item h3 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    p {
+        font-size: 0.8rem;
+    }
+    .menu {
+        gap: 15px;
+    }
+    .menu a {
+        font-size: 0.9rem;
+        padding: 1rem 1rem;
+    }
+    .conteudo {
+        max-width: 475px;
+    }
+    .introducao {
+        padding: 5px;
+    }
+    .introducao h1 {
+        font-size: 1.1rem;
+    }
+    .botao {
+        font-size: 0.8rem;
+        padding: 0.5rem 0.5rem;
+    }
+    .introducao::before {
+        width: 0px;
+    }
+    .subtitulo {
+        font-size: 2rem;
+        text-align: center;
+        padding: 5px;
+    }
+    .vantagens {
+        padding: 10px;
+    }
+    .vantagens-item h3 {
+        font-size: 0.9rem;
+    }
+    .rodape {
+        padding: 20px;
+    }
+}
